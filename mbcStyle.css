@@ -1,24 +1,34 @@
 /* Navbar styling */
 .navbar {
     display: flex;
+    align-items: center;
     background-color: #333;
     padding: 10px;
     font-family: Arial, sans-serif;
   }
   
-  /* Navbar items */
+  .navbar-logo {
+    margin-right: auto;
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  
   .navbar-item {
     position: relative;
     padding: 10px 15px;
     color: white;
     cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
   }
   
   .navbar-item:hover {
     background-color: #555;
   }
   
-  /* Dropdown menu styling */
+  /* Dropdown styling */
   .dropdown {
     display: none;
     position: absolute;
@@ -38,5 +48,48 @@
   
   .dropdown a:hover {
     background-color: #666;
+  }
+  
+  /* Banner styling */
+  .banner {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url(banner.png); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner-text {
+    color: white;
+    text-align: center;
+  }
+  
+  .banner-text h1 {
+    font-size: 50px;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .banner-text p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .banner-text h2 {
+    font-size: 30px;
+    margin: 10px 0 0;
   }
   

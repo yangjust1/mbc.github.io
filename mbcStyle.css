@@ -1,0 +1,42 @@
+/* Navbar styling */
+.navbar {
+    display: flex;
+    background-color: #333;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar items */
+  .navbar-item {
+    position: relative;
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .navbar-item:hover {
+    background-color: #555;
+  }
+  
+  /* Dropdown menu styling */
+  .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    min-width: 150px;
+    z-index: 1;
+  }
+  
+  .dropdown a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {
+    background-color: #666;
+  }
+  
